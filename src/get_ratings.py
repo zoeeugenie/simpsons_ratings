@@ -6,7 +6,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-# Get html
+# Get html 
 simpsons_ratings_url = 'http://www.imdb.com/title/tt0096697/epdate'
 r = requests.get(simpsons_ratings_url)
 
